@@ -21,41 +21,6 @@ const scheduleData: DaySchedule[] = [
       { name: "Bahasa Indonesia", teacher: "Pak Budi", room: "Kelas 12A", time: "12:30 - 14:00" },
       { name: "Sejarah", teacher: "Bu Diana", room: "Kelas 12A", time: "14:15 - 15:45" },
     ]
-  },
-  {
-    day: "Selasa",
-    subjects: [
-      { name: "Kimia", teacher: "Bu Lisa", room: "Lab Kimia", time: "08:00 - 09:30" },
-      { name: "Bahasa Inggris", teacher: "Pak John", room: "Kelas 12A", time: "09:45 - 11:15" },
-      { name: "Ekonomi", teacher: "Bu Maria", room: "Kelas 12A", time: "12:30 - 14:00" },
-      { name: "Biologi", teacher: "Pak Rahman", room: "Lab Bio", time: "14:15 - 15:45" },
-    ]
-  },
-  {
-    day: "Rabu",
-    subjects: [
-      { name: "Matematika", teacher: "Pak Ahmad", room: "Kelas 12A", time: "08:00 - 09:30" },
-      { name: "Geografi", teacher: "Bu Sari", room: "Kelas 12A", time: "09:45 - 11:15" },
-      { name: "Seni Budaya", teacher: "Pak Andi", room: "Ruang Seni", time: "12:30 - 14:00" },
-      { name: "Olahraga", teacher: "Pak Yoga", room: "Lapangan", time: "14:15 - 15:45" },
-    ]
-  },
-  {
-    day: "Kamis",
-    subjects: [
-      { name: "PKN", teacher: "Bu Rina", room: "Kelas 12A", time: "08:00 - 09:30" },
-      { name: "Fisika", teacher: "Bu Sarah", room: "Lab Fisika", time: "09:45 - 11:15" },
-      { name: "Matematika", teacher: "Pak Ahmad", room: "Kelas 12A", time: "12:30 - 14:00" },
-      { name: "TIK", teacher: "Pak David", room: "Lab Komputer", time: "14:15 - 15:45" },
-    ]
-  },
-  {
-    day: "Jumat",
-    subjects: [
-      { name: "Agama", teacher: "Pak Imam", room: "Kelas 12A", time: "08:00 - 09:30" },
-      { name: "Bahasa Indonesia", teacher: "Pak Budi", room: "Kelas 12A", time: "09:45 - 11:15" },
-      { name: "Konseling", teacher: "Bu Counselor", room: "Ruang BK", time: "12:30 - 14:00" },
-    ]
   }
 ];
 
