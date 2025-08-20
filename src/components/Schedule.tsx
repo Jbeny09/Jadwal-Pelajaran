@@ -36,31 +36,33 @@ const Schedule = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-        {scheduleData.map((dayData, index) => (
-          <Card 
-            key={dayData.day} 
-            className="schedule-card backdrop-blur-sm bg-card/80 hover:bg-card/90 transition-all duration-500"
-            style={{ animationDelay: `${index * 100}ms` }}
-          >
-            <CardHeader className="pb-3">
-              <CardTitle className="text-center text-xl font-bold text-primary">
-                {dayData.day}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              {dayData.subjects.map((subject, subjectIndex) => (
-                <div 
-                  key={subjectIndex}
-                  className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105"
-                >
-                  <div className="time-slot mb-1">{subject.time}</div>
-                  <div className="subject">{subject.name}</div>
-                </div>
-              ))}
-            </CardContent>
-          </Card>
-        ))}
+      <div className="flex justify-center">
+        <div className="w-full max-w-md">
+          {scheduleData.map((dayData, index) => (
+            <Card 
+              key={dayData.day} 
+              className="schedule-card backdrop-blur-sm bg-card/80 hover:bg-card/90 transition-all duration-500"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <CardHeader className="pb-4">
+                <CardTitle className="text-center text-2xl font-bold text-primary">
+                  {dayData.day}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                {dayData.subjects.map((subject, subjectIndex) => (
+                  <div 
+                    key={subjectIndex}
+                    className="p-4 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105"
+                  >
+                    <div className="time-slot mb-2 text-sm font-medium text-muted-foreground">{subject.time}</div>
+                    <div className="subject text-lg font-semibold">{subject.name}</div>
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
 
       <div className="text-center text-sm text-muted-foreground mt-8 p-4 rounded-lg bg-card/50 backdrop-blur-sm">
