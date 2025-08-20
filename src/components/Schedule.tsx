@@ -16,10 +16,10 @@ const scheduleData: DaySchedule[] = [
   {
     day: "Senin",
     subjects: [
-      { name: "Matematika", teacher: "Pak Ahmad", room: "Kelas 12A", time: "08:00 - 09:30" },
-      { name: "Fisika", teacher: "Bu Sarah", room: "Lab Fisika", time: "09:45 - 11:15" },
-      { name: "Bahasa Indonesia", teacher: "Pak Budi", room: "Kelas 12A", time: "12:30 - 14:00" },
-      { name: "Sejarah", teacher: "Bu Diana", room: "Kelas 12A", time: "14:15 - 15:45" },
+      { name: "Matematika", teacher: "", room: "", time: "08:00 - 09:30" },
+      { name: "Fisika", teacher: "", room: "", time: "09:45 - 11:15" },
+      { name: "Bahasa Indonesia", teacher: "", room: "", time: "12:30 - 14:00" },
+      { name: "Sejarah", teacher: "", room: "", time: "14:15 - 15:45" },
     ]
   }
 ];
@@ -32,7 +32,7 @@ const Schedule = () => {
           Jadwal Pelajaran
         </h1>
         <p className="text-muted-foreground text-lg">
-          Kelas 12A - Semester Ganjil 2024
+          Kelas XI-4
         </p>
       </div>
 
@@ -55,9 +55,7 @@ const Schedule = () => {
                   className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105"
                 >
                   <div className="time-slot mb-1">{subject.time}</div>
-                  <div className="subject mb-1">{subject.name}</div>
-                  <div className="teacher mb-1">{subject.teacher}</div>
-                  <div className="text-xs text-muted-foreground">{subject.room}</div>
+                  <div className="subject">{subject.name}</div>
                 </div>
               ))}
             </CardContent>
