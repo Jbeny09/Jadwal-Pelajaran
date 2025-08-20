@@ -65,10 +65,6 @@ const Schedule = () => {
         </div>
       </div>
 
-      <div className="text-center text-sm text-muted-foreground mt-8 p-4 rounded-lg bg-card/50 backdrop-blur-sm">
-        <p className="mb-2">⏰ Istirahat: 11:15 - 12:30</p>
-        <p>📚 Jam Efektif: 08:00 - 15:45</p>
-      </div>
     </div>
   );
 };
