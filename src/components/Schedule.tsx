@@ -129,7 +129,7 @@ const Schedule = () => {
 
               {/* File PPTX Section */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-orange-400">File File PPTX Pembelajaran :</h3>
+                <h3 className="text-lg font-semibold text-orange-400">File File PPTX Pembelajaran</h3>
                 <div className="text-center">
                   <span className="text-blue-400 font-medium cursor-pointer hover:underline">CLICK DISINI</span>
                 </div>
