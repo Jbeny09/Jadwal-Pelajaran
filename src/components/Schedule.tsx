@@ -63,7 +63,7 @@ const Schedule = () => {
                 {dayData.subjects.map((subject, subjectIndex) => (
                   <div 
                     key={subjectIndex}
-                    className="p-4 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105"
+                    className="p-4 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-[1.02]"
                   >
                     <div className="time-slot mb-2 text-sm font-medium text-muted-foreground">{subject.time}</div>
                     <div className="subject text-lg font-semibold">{subject.name}</div>
