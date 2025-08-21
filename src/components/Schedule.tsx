@@ -115,7 +115,10 @@ const Schedule = () => {
               {/* MAPEL WAJIB Section */}
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold text-orange-400">MAPEL WAJIB:</h3>
-                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
+                <div 
+                  className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 cursor-pointer hover:scale-[1.02]"
+                  onClick={() => window.open('https://www.notion.so/24d34da2b55b80d48b7ed95137a780da?v=24d34da2b55b805996c0000c10c56883&source=copy_link', '_blank')}
+                >
                   <div className="flex items-center space-x-2">
                     <span>😊</span>
                     <span className="text-sm">List Tugas XI-4 Mapel Wajib</span>
