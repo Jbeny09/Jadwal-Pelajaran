@@ -16,7 +16,7 @@ const scheduleData: DaySchedule[] = [
   {
     day: "Jumat",
     subjects: [
-      { name: "Renungan Pagi testing1", teacher: "", room: "", time: "06.30 - 06.50" },
+      { name: "Renungan Pagi", teacher: "", room: "", time: "06.30 - 06.50" },
       { name: "Jam ke 0", teacher: "", room: "", time: "06.50 - 07.35" },
       { name: "Mata Pelajaran Pilihan 1", teacher: "", room: "", time: "07.35 - 08.15" },
       { name: "Mata Pelajaran Pilihan 2", teacher: "", room: "", time: "08.15 - 08.55" },
