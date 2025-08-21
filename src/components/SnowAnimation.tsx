@@ -14,7 +14,7 @@ const SnowAnimation = () => {
   useEffect(() => {
     const createSnowflakes = () => {
       const flakes: Snowflake[] = [];
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 100; i++) {
         flakes.push({
           id: i,
           left: Math.random() * 100,
