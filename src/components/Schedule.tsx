@@ -81,7 +81,7 @@ const Schedule = () => {
           <Card className="schedule-card backdrop-blur-sm bg-card/80 hover:bg-card/90 transition-all duration-500">
             <CardHeader className="pb-4">
               <CardTitle className="text-center text-xl font-bold text-primary">
-                📋 PETUGAS
+                📋 PETUGAS RENUNGAN
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-2">
