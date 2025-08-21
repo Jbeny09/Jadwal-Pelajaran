@@ -137,7 +137,10 @@ const Schedule = () => {
 
               {/* Additional Items */}
               <div className="space-y-2">
-                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
+                <div 
+                  className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 cursor-pointer hover:scale-[1.02]"
+                  onClick={() => window.open('https://www.notion.so/24e34da2b55b8032979ee54179cd6830?v=24e34da2b55b800bbefe000cf9cb58aa&source=copy_link', '_blank')}
+                >
                   <div className="flex items-center space-x-2">
                     <span>😊</span>
                     <span className="text-sm">Kalender PH 📅📄 (Wajib+Pilihan)</span>
