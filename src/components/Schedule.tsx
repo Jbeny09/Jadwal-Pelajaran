@@ -101,6 +101,57 @@ const Schedule = () => {
         </div>
       </div>
 
+      {/* Tugas Section */}
+      <div className="flex justify-center">
+        <div className="w-full max-w-md mt-6">
+          <Card className="schedule-card backdrop-blur-sm bg-card/80 hover:bg-card/90 transition-all duration-500">
+            <CardHeader className="pb-4">
+              <CardTitle className="text-center text-xl font-bold text-primary">
+                📚 TUGAS
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              
+              {/* MAPEL WAJIB Section */}
+              <div className="space-y-3">
+                <h3 className="text-lg font-semibold text-orange-400">MAPEL WAJIB:</h3>
+                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
+                  <div className="flex items-center space-x-2">
+                    <span>😊</span>
+                    <span className="text-sm">List Tugas XI-4 Mapel Wajib</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* File PPTX Section */}
+              <div className="space-y-3">
+                <h3 className="text-lg font-semibold text-red-400">File File PPTX Pembelajaran :</h3>
+                <div className="text-center">
+                  <span className="text-blue-400 font-medium cursor-pointer hover:underline">CLICK DISINI</span>
+                </div>
+              </div>
+
+              {/* Additional Items */}
+              <div className="space-y-2">
+                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
+                  <div className="flex items-center space-x-2">
+                    <span>😊</span>
+                    <span className="text-sm">Kalender PH 📅📄 (Wajib+Pilihan)</span>
+                  </div>
+                </div>
+                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
+                  <div className="flex items-center space-x-2">
+                    <span>😊</span>
+                    <span className="text-sm">List Tugas XI-4 Mapel Pilihan (1)</span>
+                  </div>
+                </div>
+              </div>
+
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+
     </div>
   );
 };
