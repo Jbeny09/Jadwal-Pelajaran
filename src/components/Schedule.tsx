@@ -75,6 +75,33 @@ const Schedule = () => {
         </div>
       </div>
 
+      {/* Petugas Section */}
+      <div className="w-full max-w-md mt-6">
+        <Card className="schedule-card backdrop-blur-sm bg-card/80 hover:bg-card/90 transition-all duration-500">
+          <CardHeader className="pb-4">
+            <CardTitle className="text-left text-xl font-bold text-primary">
+              📋 PETUGAS
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2">
+            <div className="text-left space-y-1">
+              <div className="text-sm">
+                <span className="font-medium">• Lagu, Doa : </span>
+                <span className="text-green-400">Lovely @~Abigail Lovely ♪+</span>
+              </div>
+              <div className="text-sm">
+                <span className="font-medium">• Renungan, Doa : </span>
+                <span className="text-green-400">Agnes @Aghes Olivia</span>
+              </div>
+              <div className="text-sm">
+                <span className="font-medium">• Doa Pulang : </span>
+                <span className="text-green-400">Aileen @Sachi</span>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
     </div>
   );
 };
