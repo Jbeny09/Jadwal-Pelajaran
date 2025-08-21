@@ -29,7 +29,7 @@ const scheduleData: DaySchedule[] = [
       { name: "Istirahat", teacher: "", room: "", time: "12.45 - 13.15" },
       { name: "Bahasa Inggris", teacher: "", room: "", time: "13.15 - 13.55" },
       { name: "Bahasa Inggris", teacher: "", room: "", time: "13.55 - 14.35" },
-      { name: "", teacher: "", room: "", time: "14.35 - 15.20" },
+      { name: "Pulang", teacher: "", room: "", time: "14.35 - 15.20" },
     ]
   }
 ];
