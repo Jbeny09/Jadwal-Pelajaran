@@ -124,11 +124,12 @@ const Schedule = () => {
                     <span className="text-sm">List Tugas XI-4 Mapel Wajib</span>
                   </div>
                 </div>
+                <p className="text-red-400 text-xs text-center">Tabel diatas bisa di Click!</p>
               </div>
 
               {/* File PPTX Section */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-red-400">File File PPTX Pembelajaran :</h3>
+                <h3 className="text-lg font-semibold text-orange-400">File File PPTX Pembelajaran :</h3>
                 <div className="text-center">
                   <span className="text-blue-400 font-medium cursor-pointer hover:underline">CLICK DISINI</span>
                 </div>
