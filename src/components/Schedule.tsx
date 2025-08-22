@@ -131,7 +131,12 @@ const Schedule = () => {
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold text-orange-400">File File PPTX Pembelajaran</h3>
                 <div className="text-center">
-                  <span className="text-blue-400 font-medium cursor-pointer hover:underline">CLICK DISINI</span>
+                  <span 
+                    className="text-blue-400 font-medium cursor-pointer hover:underline underline" 
+                    onClick={() => window.open('https://drive.google.com/drive/folders/1hrVoZT5AgHYv21Vi5gnUCE0tZqP10nBY?usp=sharing', '_blank')}
+                  >
+                    CLICK DISINI
+                  </span>
                 </div>
               </div>
 
