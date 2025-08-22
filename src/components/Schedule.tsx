@@ -37,6 +37,9 @@ const scheduleData: DaySchedule[] = [
 const Schedule = () => {
   return (
     <div className="container mx-auto p-6 space-y-8">
+      {/* Neon light effect at the top */}
+      <div className="fixed top-0 left-0 right-0 h-1 bg-blue-500 shadow-[0_0_20px_#3b82f6] animate-pulse z-50"></div>
+      
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
           Agenda WorkSpace XI4 !!
