@@ -158,7 +158,7 @@ const Schedule = () => {
 
               {/* Bottom notice text */}
               <div className="text-center mt-4">
-                <p className="text-red-400 text-sm font-medium">Semua Tabel Dalam Tabel Tugas Bisa Di Click Ya...</p>
+                <p className="text-red-400 text-sm font-medium">Semua Tabel Dalam Tabel Tugas Bisa Di Click Ya</p>
               </div>
 
             </CardContent>
