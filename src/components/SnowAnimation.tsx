@@ -18,7 +18,7 @@ const SnowAnimation = () => {
         flakes.push({
           id: i,
           left: Math.random() * 100,
-          animationDuration: Math.random() * 3 + 2, // 2-5 seconds
+          animationDuration: Math.random() * 4 + 3, // 3-7 seconds
           opacity: Math.random() * 0.6 + 0.1, // 0.1-0.7
           size: Math.random() * 4 + 10, // 10-14px
         });
