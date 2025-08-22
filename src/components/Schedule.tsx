@@ -127,7 +127,7 @@ const Schedule = () => {
                     <span className="text-sm">List Tugas XI-4 Mapel Wajib</span>
                   </div>
                 </div>
-                <p className="text-red-400 text-xs text-center">Tabel diatas bisa di Click!</p>
+                
               </div>
 
               {/* File PPTX Section */}
@@ -159,6 +159,11 @@ const Schedule = () => {
             </CardContent>
           </Card>
         </div>
+      </div>
+
+      {/* Bottom notice text */}
+      <div className="text-center mt-8 pb-6">
+        <p className="text-red-400 text-sm font-medium">semua tabel diatas bisa di click</p>
       </div>
 
     </div>
