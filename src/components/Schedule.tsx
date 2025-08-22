@@ -156,14 +156,14 @@ const Schedule = () => {
                 </div>
               </div>
 
+              {/* Bottom notice text */}
+              <div className="text-center mt-4">
+                <p className="text-red-400 text-sm font-medium">semua tabel diatas bisa di click</p>
+              </div>
+
             </CardContent>
           </Card>
         </div>
-      </div>
-
-      {/* Bottom notice text */}
-      <div className="text-center mt-8 pb-6">
-        <p className="text-red-400 text-sm font-medium">semua tabel diatas bisa di click</p>
       </div>
 
     </div>
