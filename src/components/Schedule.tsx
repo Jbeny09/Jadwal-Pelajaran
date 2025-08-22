@@ -151,12 +151,6 @@ const Schedule = () => {
                     <span className="text-sm">Kalender PH 📅📄 (Wajib+Pilihan)</span>
                   </div>
                 </div>
-                <div className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300">
-                  <div className="flex items-center space-x-2">
-                    <span>😊</span>
-                    <span className="text-sm">List Tugas XI-4 Mapel Pilihan (1)</span>
-                  </div>
-                </div>
               </div>
 
             </CardContent>
