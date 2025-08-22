@@ -14,7 +14,7 @@ interface DaySchedule {
 
 const scheduleData: DaySchedule[] = [
   {
-    day: "Selasa",
+    day: "Senin",
     subjects: [
       { name: "Renungan Pagi", teacher: "", room: "", time: "06.30 - 06.50" },
       { name: "Matematika", teacher: "", room: "", time: "06.50 - 07.35" },
