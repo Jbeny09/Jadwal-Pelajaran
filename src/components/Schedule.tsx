@@ -26,7 +26,7 @@ const scheduleData: DaySchedule[] = [
       { name: "Mata Pelajaran pilihan 3", teacher: "", room: "", time: "10.00 - 10.30" },
       { name: "Career Day", teacher: "", room: "", time: "10.30 - 14.35" },
       { name: "Career Day", teacher: "", room: "", time: "14.35 - 15.20" },
-      { name: "Remedial Dan Pengayaan", teacher: "", room: "Lab", time: "15.30 - SELESAI" },
+      { name: "Remedial Dan Pengayaan", teacher: "", room: "", time: "15.30 - SELESAI" },
       { name: "", teacher: "", room: "", time: "" },
       { name: "", teacher: "", room: "", time: "" },
       { name: "", teacher: "", room: "", time: "" },
