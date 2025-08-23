@@ -115,6 +115,17 @@ const Schedule = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               
+              {/* WorkSpace XI4 Section */}
+              <div className="space-y-3">
+                <div 
+                  className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 cursor-pointer hover:scale-[1.02]"
+                >
+                  <div className="flex items-center justify-center">
+                    <span className="text-lg font-semibold">WorkSpace XI4</span>
+                  </div>
+                </div>
+              </div>
+
               {/* MAPEL WAJIB Section */}
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold text-orange-400">MAPEL WAJIB</h3>
