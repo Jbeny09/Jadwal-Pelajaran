@@ -119,6 +119,7 @@ const Schedule = () => {
               <div className="space-y-3">
                 <div 
                   className="p-3 rounded-lg bg-gradient-accent border border-border/50 hover:border-primary/50 transition-all duration-300 cursor-pointer hover:scale-[1.02]"
+                  onClick={() => window.open('https://www.notion.so/Agenda-WorkSpace-XI4-23134da2b55b801685b5e6938454b07c?source=copy_link', '_blank')}
                 >
                   <div className="flex items-center justify-center">
                     <span className="text-lg font-semibold">WorkSpace XI4</span>
