@@ -157,7 +157,7 @@ const Schedule = () => {
 
               {/* Jadwal PH Section */}
               <div className="space-y-3">
-                <h3 className="text-lg font-semibold text-yellow-400">Jadwal PH</h3>
+                <h3 className="text-lg font-semibold text-orange-400">Jadwal PH</h3>
               </div>
               <div className="space-y-2">
                 <div 
