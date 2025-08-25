@@ -90,7 +90,7 @@ const Schedule = () => {
             <CardContent className="space-y-2">
               <div className="text-left space-y-1">
                 <div className="text-lg">
-                  <span className="font-medium">• Lagu, Doa : Christabel</span>
+                  <span className="font-medium">• Lagu, Doa : </span>
                 </div>
                 <div className="text-lg">
                   <span className="font-medium">• Renungan, Doa : </span>
