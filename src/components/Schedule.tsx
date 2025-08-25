@@ -90,13 +90,13 @@ const Schedule = () => {
             <CardContent className="space-y-2">
               <div className="text-left space-y-1">
                 <div className="text-lg">
-                  <span className="font-medium">• Lagu, Doa : </span>
+                  <span className="font-medium">• Lagu, Doa : Cindy</span>
                 </div>
                 <div className="text-lg">
-                  <span className="font-medium">• Renungan, Doa : </span>
+                  <span className="font-medium">• Renungan, Doa : Dicko Samuel</span>
                 </div>
                 <div className="text-lg">
-                  <span className="font-medium">• Doa Pulang : </span>
+                  <span className="font-medium">• Doa Pulang : Elma</span>
                 </div>
               </div>
             </CardContent>
