@@ -123,7 +123,7 @@ export default {
 				'snowfall': 'snowfall linear infinite',
 				'glow': 'glow 2s ease-in-out infinite',
 				'float': 'float 3s ease-in-out infinite',
-				'rainbow': 'rainbow 3s linear infinite'
+				'rainbow': 'rainbow 6s linear infinite'
 			}
 		}
 	},
