@@ -14,16 +14,16 @@ interface DaySchedule {
 
 const scheduleData: DaySchedule[] = [
   {
-    day: "Senin",
+    day: "Selasa",
     subjects: [
       { name: "Renungan Pagi", teacher: "", room: "", time: "06.30 - 06.50" },
-      { name: "Matematika", teacher: "", room: "", time: "06.50 - 07.35" },
-      { name: "Bahasa Sunda", teacher: "", room: "", time: "07.35 - 08.05" },
-      { name: "Seni Budaya", teacher: "", room: "", time: "08.05 - 08.35" },
-      { name: "Mata Pelajaran Pilihan 1", teacher: "", room: "", time: "08.35 - 09.05" },
-      { name: "Mata Pelajaran pilihan 2", teacher: "", room: "", time: "09.05 - 09.30" },
+      { name: "Mandarin", teacher: "", room: "", time: "06.50 - 07.35" },
+      { name: "PAK", teacher: "", room: "", time: "07.35 - 08.05" },
+      { name: "Matematika", teacher: "", room: "", time: "08.05 - 08.35" },
+      { name: "Matematika", teacher: "", room: "", time: "08.35 - 09.05" },
+      { name: "Mata Pelajaran pilihan 1", teacher: "", room: "", time: "09.05 - 09.30" },
       { name: "Istirahat", teacher: "", room: "", time: "09.30 - 10.00" },
-      { name: "Mata Pelajaran pilihan 3", teacher: "", room: "", time: "10.00 - 10.30" },
+      { name: "Mata Pelajaran pilihan 2", teacher: "", room: "", time: "10.00 - 10.30" },
       { name: "Career Day", teacher: "", room: "", time: "10.30 - 14.35" },
       { name: "Career Day", teacher: "", room: "", time: "14.35 - 15.20" },
       { name: "Remedial Dan Pengayaan", teacher: "", room: "", time: "15.30 - SELESAI" },
