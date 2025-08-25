@@ -44,7 +44,7 @@ const Schedule = () => {
         <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
           Agenda WorkSpace XI4 !!
         </h1>
-        <p className="text-muted-foreground text-lg">
+        <p className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-purple-500 bg-clip-text text-transparent bg-[length:200%_200%] animate-rainbow">
           Kelas XI-4
         </p>
       </div>

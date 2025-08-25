@@ -110,6 +110,11 @@ export default {
 					'50%': {
 						transform: 'translateY(-10px)'
 					}
+				},
+				'rainbow': {
+					'0%': { backgroundPosition: '0% 50%' },
+					'50%': { backgroundPosition: '100% 50%' },
+					'100%': { backgroundPosition: '0% 50%' }
 				}
 			},
 			animation: {
@@ -117,7 +122,8 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'snowfall': 'snowfall linear infinite',
 				'glow': 'glow 2s ease-in-out infinite',
-				'float': 'float 3s ease-in-out infinite'
+				'float': 'float 3s ease-in-out infinite',
+				'rainbow': 'rainbow 3s linear infinite'
 			}
 		}
 	},
