@@ -19,7 +19,7 @@ const SnowAnimation = () => {
           id: i,
           left: Math.random() * 100,
           animationDuration: Math.random() * 4 + 3, // 3-7 seconds
-          opacity: Math.random() * 0.6 + 0.1, // 0.1-0.7
+          opacity: Math.random() * 0.6 + 0.3, // 0.3-0.9
           size: Math.random() * 4 + 10, // 10-14px
         });
       }
